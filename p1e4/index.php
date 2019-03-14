@@ -10,20 +10,20 @@ $int = 42;
 // Attention, les nombres doivent être écrits avec un point au lieu de la virgule (c'est la notation anglaise).
 $float = 42.42;
 // Les booléens (bool) : c'est un type très important qui permet de stocker soit vrai soit faux.
-// Cela permet de retenir si une information est vraie ou fausse. 
+// Cela permet de retenir si une information est vraie ou fausse.
 // On les utilise très fréquemment. On écrittruepour vrai, etfalsepour faux.
 $bool = true;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Exercice 4 partie 1 php</title>
-  </head>
-  <body>
-    <p>Variable de type string: <?= $string; ?></p>
-    <p>Variable de type int: <?= $int; ?></p>
-    <p>Variable de type float: <?= $float; ?></p>
-    <p>Variable de type booléan: <?= $bool; ?></p>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 4 partie 1 php</title>
+</head>
+<body>
+  <p>Variable de type string: <?= $string ?></p>
+  <p>Variable de type int: <?= $int ?></p>
+  <p>Variable de type float: <?= $float ?></p>
+  <p>Variable de type booléan: <?= $bool ?></p>
+</body>
 </html>
