@@ -1,7 +1,4 @@
 <?php
-// Créer une variable de type string, une variable de type int, une variable de type float,
-//une variable de type booléan et les initialiser avec une valeur de votre choix.
-
 // Les chaînes de caractères (string) sont le nom informatique qu'on donne au texte.
 $string = 'texte';
 // Les nombres entiers (int) : ce sont les nombres du type 1, 2, 3, 4, etc. On compte aussi parmi eux les entiers relatifs : -1, -2, -3…
@@ -11,7 +8,7 @@ $int = 42;
 $float = 42.42;
 // Les booléens (bool) : c'est un type très important qui permet de stocker soit vrai soit faux.
 // Cela permet de retenir si une information est vraie ou fausse.
-// On les utilise très fréquemment. On écrittruepour vrai, etfalsepour faux.
+// On les utilise très fréquemment. On écrit true pour vrai, et false pour faux.
 $bool = true;
 ?>
 <!DOCTYPE html>
@@ -26,6 +23,7 @@ $bool = true;
   <p>Variable de type string: <?= $string ?></p>
   <p>Variable de type int: <?= $int ?></p>
   <p>Variable de type float: <?= $float ?></p>
+  <!-- il affiche 1 pour true, pour false il affiche rien (ou 0)-->
   <p>Variable de type booléan: <?= $bool ?></p>
 </body>
 </html>
