@@ -9,6 +9,9 @@ $km = 1;
   <title>Exercice 3 partie 1 php</title>
 </head>
 <body>
+  <p>Créer une variable km. L'initialiser à 1. Afficher son contenu.</p>
+  <p>Changer sa valeur par 3. Afficher son contenu.</p>
+  <p>Changer sa valeur par 125. Afficher son contenu.</p>
   <!-- On affiche la valeur de notre variable  -->
   <p>1er km : <?= $km; ?></p>
   <?php

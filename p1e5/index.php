@@ -10,6 +10,8 @@ $int = null;
   <title>Exercice 5 partie 1 php</title>
 </head>
 <body>
+  <p>Créer une variable de type int. L'initialiser avec rien. Afficher sa valeur.</p>
+  <p>Donner une valeur à cette variable et l'afficher.</p>
   <!-- J'affiche la valeur nul de ma variable $int  -->
   <p>J'ai crée une variable et je l'ai initialisé avec rien: <?= $int; ?></p>
   <?php

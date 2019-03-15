@@ -9,6 +9,8 @@ $name = 'Amandine';
   <title>Exercice 6 partie 1 php</title>
 </head>
 <body>
+  <p>Créer une variable name et l'initialiser avec la valeur de votre choix.</p>
+  <p>Afficher : "Bonjour" + name + ", comment vas tu ?".</p>
   <!-- Afficher : "Bonjour" + name + ", comment vas tu ?". -->
   <p>Bonjour <?= $name; ?>, comment vas-tu ?</p>
 </body>

@@ -21,6 +21,8 @@ $bool = true;
   <title>Exercice 4 partie 1 php</title>
 </head>
 <body>
+  <p>Créer une variable de type string, une variable de type int, une variable de type float, une variable de type booléan et les initialiser avec une valeur de votre choix.</p>
+  <p>Les afficher.</p>
   <p>Variable de type string: <?= $string ?></p>
   <p>Variable de type int: <?= $int ?></p>
   <p>Variable de type float: <?= $float ?></p>
